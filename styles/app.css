@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-section-1 > div{
+    width: 100%; 
+    display: flex;
+     justify-content: center;
+}
+.header-section-1 > div> img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-section2-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-section2-div-1 span{
+    text-decoration: underline;
+    padding: 1rem;
+}
+.header-section2-div-1 h1{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center ;
+}
+.header-section2-div-1 p{
+    padding: 1rem;
+    text-align: center;
+}
+.header-section2-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 239, 229, 1);
+    border: 2px solid black;
+    max-width: 95%;
+    width: 100%;
+    gap: 1rem;
+    box-shadow: 0 4px 20px rgba(225, 60, 0, 0.789);
+    margin: 2rem;
+}
+.section2-div2-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section2-div2-div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-div2-div-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-div2-div-1 p{
+    font-size: 3rem;
+}
+.section2-div2-div-1 span{
+    font-size: 1.5rem;
+}
+.section2-div2-div-2 p{
+    font-size: 3rem;
+}
+.section2-div2-div-2 span{
+    font-size: 1.5rem;
+}
+.section2-div2-div-3 p{
+    font-size: 3rem;
+}
+.section2-div2-div-3 span{
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 768px){
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .header-section-2{
+       width: 50%;
+        /* margin: 1rem; */
+    }
+        .header-section-1{
+        height: 100%;
+    }
+        .header-section-1 > div{
+    width: 100% }
+
+    .header-section-1 > div> img{
+    width: 100% 
+}
+.section2-div2-div-1 p{
+    font-size: 1.5rem;
+}
+.section2-div2-div-1 span{
+    font-size: 1rem;
+}
+.section2-div2-div-2 p{
+    font-size: 1.5rem;
+}
+.section2-div2-div-2 span{
+    font-size: 1rem;
+}
+.section2-div2-div-3 p{
+    font-size: 1.5rem;
+}
+.section2-div2-div-3 span{
+    font-size: 1rem;
+}
+.header-section2-div-1 h1{
+   font-size:  1rem;
+}
+.header-section2-div-1 span{
+    padding: 0.5rem;
+}
+.header-section2-div-1 h1{
+    padding: 0.5rem;
+}
+.header-section2-div-1 p{
+    padding: 0.5rem;
+
+}
+}
